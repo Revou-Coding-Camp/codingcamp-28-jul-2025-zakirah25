@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Our Profile</a>
+    <a href="#message">Message Us</a>
+  </nav>
+
+  <header>
+    <h1 id="greeting">Hi, Welcome To Website</h1>
+    <p>This is a short website description</p>
+  </header>
+
+  <section>
+    <h2>Our Headquarter</h2>
+   <div class="headquarters">
+  <div class="hq-item">
+    <div class="circle"></div>
+    <p>Jakarta</p>
+  </div>
+  <div class="hq-item">
+    <div class="circle"></div>
+    <p>Bandung</p>
+  </div>
+  <div class="hq-item">
+    <div class="circle"></div>
+    <p>Sidoarjo</p>
+  </div>
+</div>
+  </section>
+
+  <section id="message">
+    <h2>Message Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="tel" id="phone" placeholder="Phone Number" />
+      <textarea id="messageText" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+  </section>
+
+  <footer>
+    <p>Created by Sazaa</p>
+  </footer>
+
+  <script src="js/script.js" defer></script>
 </body>
 </html>

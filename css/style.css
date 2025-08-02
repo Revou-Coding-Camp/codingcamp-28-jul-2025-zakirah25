@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #053b55;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0985a4;
+}
+
+.headquarters {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.hq-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #b7b9ba;
+  margin-bottom: 5px; /* jarak ke teks bawah */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+footer {
+  background-color: #0985a4;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .headquarters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+}
